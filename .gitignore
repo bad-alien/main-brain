@@ -1,0 +1,12 @@
+# Secrets & env
+.env
+
+# Virtual env
+.venv/
+
+# Other local cruft
+.vscode/
+outputs/
+obsidian-vault/
+.ipynb_checkpoints/
+.DS_Store
