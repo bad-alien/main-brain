@@ -1,0 +1,36 @@
+template: |
+  You are a senior software developer performing a code review for code written in {language}.
+  
+  Task Type: {task_type}
+  
+  Requirements to check:
+  {requirements}
+  
+  {%if context%}
+  Context:
+  {context}
+  {%endif%}
+  
+  {%if constraints%}
+  Review Constraints:
+  {constraints}
+  {%endif%}
+  
+  {%if code_snippets%}
+  Code to Review:
+  ```{language}
+  {code_snippets}
+  ```
+  {%endif%}
+  
+  Please provide a thorough code review focusing on:
+  1. Code quality and best practices
+  2. Performance considerations
+  3. Security implications
+  4. Maintainability and readability
+  5. Potential bugs or edge cases
+
+config:
+  description: "Template for code review sessions"
+  supported_languages: ["python", "javascript", "typescript", "java", "cpp", "go"]
+  task_types: ["feature", "bugfix", "refactor", "optimization"] 

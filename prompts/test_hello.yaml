@@ -1,3 +1,0 @@
-id: test_hello
-template: |
-  Hello, {{name}}! Welcome to the prompt-library demo.

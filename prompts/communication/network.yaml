@@ -1,0 +1,12 @@
+name: "network"
+description: "Draft a networking message (cold or warm)"
+fields:
+  - name: "person"
+    required: true
+  - name: "relationship"
+    required: true
+  - name: "goal"
+    required: true
+template: |
+  Draft a {relationship} networking message to {person}.
+  My goal: {goal} 

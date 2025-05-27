@@ -1,0 +1,11 @@
+name: "checkanswer"
+description: "Check a solution for completeness, clarity, and accuracy"
+fields:
+  - name: "problem"
+    required: true
+  - name: "solution"
+    required: true
+template: |
+  Please check the following solution for completeness, clarity, and accuracy:
+  Problem: {problem}
+  Solution: {solution} 

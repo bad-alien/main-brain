@@ -1,0 +1,12 @@
+name: "breakdown"
+description: "Breakdown of a topic with specified depth and placeholder for additional details"
+fields:
+  - name: "topic"
+    required: true
+  - name: "depth"
+    required: false
+template: |
+  Please break down the following topic:
+  {topic}
+  Level of depth: {depth}
+  [Additional details to be filled in] 

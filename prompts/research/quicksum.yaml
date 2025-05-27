@@ -1,0 +1,8 @@
+name: "quicksum"
+description: "Quick summary of a topic in 2-4 sentences"
+fields:
+  - name: "topic"
+    required: true
+template: |
+  Please summarize the following topic in 2-4 sentences:
+  {topic} 

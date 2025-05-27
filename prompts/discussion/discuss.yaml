@@ -1,0 +1,9 @@
+name: "discuss"
+description: "Open-ended discussion to refine understanding or mentality"
+fields:
+  - name: "statement"
+    required: true
+template: |
+  Let's discuss the following:
+  {statement}
+  Please help me sharpen, shift, or improve my understanding. 
