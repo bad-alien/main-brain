@@ -1,0 +1,10 @@
+course_info:
+  name: "LS 7B"
+  subject: "Life Sciences"
+  level: "lower division undergraduate at UCLA"
+  course_description: "Life Sciences 7B: Genetics, Evolution, and Ecology. Focuses on the principles of inheritance, population genetics, and ecological interactions."
+  textbook: "How Life Works - 4th Edition"
+learning_objectives:
+  - "Understand fundamental principles of inheritance and Mendelian genetics"
+  - "Master concepts of population genetics and evolutionary processes"
+  - "Apply ecological principles to analyze species interactions and community dynamics" 

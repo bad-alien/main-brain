@@ -1,0 +1,9 @@
+name: "Math 134"
+subject: "Dynamical Systems"
+level: "undergraduate"
+course_description: "Dynamical systems analysis of nonlinear systems of differential equations. One- and two- dimensional flows. Fixed points, limit cycles, and stability analysis. Bifurcations and normal forms. Elementary geometrical and topological results. Applications to problems in biology, chemistry, physics, and other fields."
+textbook: "S. Strogatz, Nonlinear Dynamics and Chaos (2nd Ed.), Perseus Books Group"
+learning_objectives:
+  - "Understand nonlinear systems of differential equations and their analysis"
+  - "Master stability analysis of fixed points and limit cycles"
+  - "Apply bifurcation theory to analyze system behavior" 
